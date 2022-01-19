@@ -1,4 +1,4 @@
-# ASWETEAMPROJECT
+# Culpa Review API
 ASWE Fall 2021 Group Project  
 Authors: Winston Zhang, Cassidy LoCassio, Danni Lin, Kasim Wa, Aaron Lee
 
