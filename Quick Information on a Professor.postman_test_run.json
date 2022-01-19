@@ -1,0 +1,129 @@
+{
+	"id": "5aa2e69f-1b0b-4a3a-94fc-3a1ddccbb2fe",
+	"name": "Quick Information on a Professor",
+	"timestamp": "2021-12-13T19:38:46.408Z",
+	"collection_id": "18347402-2066e7e4-b899-4b5e-84ea-351d40b1c52f",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 6,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "7460b8fa-49b0-4bb2-bd61-6619b0c7db0e",
+			"name": "professor",
+			"url": "http://127.0.0.1:5000/professor?profname=Gail%20Kaiser",
+			"time": 637,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Random professor review is for designated professor": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Random professor review is for designated professor": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				637
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Random professor review is for designated professor": true
+				}
+			]
+		},
+		{
+			"id": "3fd17ae4-4dce-4798-b5f9-c4b5a6f66b44",
+			"name": "summary",
+			"url": "http://127.0.0.1:5000/summary?profname=Aaron%20Ritzenberg",
+			"time": 770,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Summary is returned for Aaron Ritzenberg": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Summary is returned for Aaron Ritzenberg": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				770
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Summary is returned for Aaron Ritzenberg": true
+				}
+			]
+		},
+		{
+			"id": "b4a28f1f-ff47-42bb-a7c0-bb5d72cca0b1",
+			"name": "total reviews",
+			"url": "http://127.0.0.1:5000/total_reviews?profname=Aaron%20Fox",
+			"time": 597,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Aaron Fox has a total of 7 reviews": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Aaron Fox has a total of 7 reviews": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				597
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Aaron Fox has a total of 7 reviews": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2004,
+	"collection": {
+		"requests": [
+			{
+				"id": "7460b8fa-49b0-4bb2-bd61-6619b0c7db0e",
+				"method": "GET"
+			},
+			{
+				"id": "3fd17ae4-4dce-4798-b5f9-c4b5a6f66b44",
+				"method": "GET"
+			},
+			{
+				"id": "b4a28f1f-ff47-42bb-a7c0-bb5d72cca0b1",
+				"method": "GET"
+			}
+		]
+	}
+}

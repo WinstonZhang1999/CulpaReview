@@ -1,0 +1,166 @@
+{
+	"id": "d3c29ace-5624-4822-8aa3-b653c7c6a481",
+	"name": "Easy vs Hard Professors and Classes",
+	"timestamp": "2021-12-13T19:37:55.658Z",
+	"collection_id": "18347402-ced364f6-c9b3-4f8e-994b-1681289338ef",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 8,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "d46a3c2f-c742-4afd-bc94-54b98803f8d3",
+			"name": "easy professor",
+			"url": "http://127.0.0.1:5000/easy?profname=Aaron%20Fox&course=",
+			"time": 798,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Aaron Fox has easy status": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Aaron Fox has easy status": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				798
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Aaron Fox has easy status": true
+				}
+			]
+		},
+		{
+			"id": "6b878786-d9b8-4723-9b99-4c148d7ab101",
+			"name": "difficulty professor",
+			"url": "http://127.0.0.1:5000/difficulty?profname=Achille%20Varzi&course=",
+			"time": 645,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Achille Varzi has hard status": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Achille Varzi has hard status": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				645
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Achille Varzi has hard status": true
+				}
+			]
+		},
+		{
+			"id": "b7cd51b2-8a2f-4584-8e57-1e10e2840305",
+			"name": "difficulty course",
+			"url": "http://127.0.0.1:5000/difficulty?course=Calculus%20I&profname=",
+			"time": 1056,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Reviews indicate Caluclus I is hard": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Reviews indicate Caluclus I is hard": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1056
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Reviews indicate Caluclus I is hard": true
+				}
+			]
+		},
+		{
+			"id": "05f9c38b-6426-4bff-9949-06eaa2b30c1a",
+			"name": "easy course",
+			"url": "http://127.0.0.1:5000/easy?course=Metaphysics&profname=",
+			"time": 634,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Student mentioned Metaphysics as having an easy A status": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Student mentioned Metaphysics as having an easy A status": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				634
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Student mentioned Metaphysics as having an easy A status": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 3133,
+	"collection": {
+		"requests": [
+			{
+				"id": "d46a3c2f-c742-4afd-bc94-54b98803f8d3",
+				"method": "GET"
+			},
+			{
+				"id": "6b878786-d9b8-4723-9b99-4c148d7ab101",
+				"method": "GET"
+			},
+			{
+				"id": "b7cd51b2-8a2f-4584-8e57-1e10e2840305",
+				"method": "GET"
+			},
+			{
+				"id": "05f9c38b-6426-4bff-9949-06eaa2b30c1a",
+				"method": "GET"
+			}
+		]
+	}
+}

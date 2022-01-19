@@ -1,0 +1,203 @@
+{
+	"id": "fcbc4d88-f950-4890-ad79-12c732ae0f74",
+	"name": "Class Finder",
+	"timestamp": "2021-12-13T19:37:03.325Z",
+	"collection_id": "18347402-d90d68d2-bc16-45ce-903e-93d65075577c",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 10,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "3844ea9e-c45a-41ff-80a4-936aacd978ea",
+			"name": "math",
+			"url": "http://127.0.0.1:5000/classes?classtype=math&comparatortype=easy",
+			"time": 5396,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"5 Math Classes Comparator Type Easy": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"5 Math Classes Comparator Type Easy": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5396
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"5 Math Classes Comparator Type Easy": true
+				}
+			]
+		},
+		{
+			"id": "2c7d6710-4bcc-44cd-a761-33f38a20ee44",
+			"name": "computer science",
+			"url": "http://127.0.0.1:5000/classes?classtype=computer%20science&comparatortype=final",
+			"time": 5037,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"5 Computer Science Classes Comparator Type Final": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"5 Computer Science Classes Comparator Type Final": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5037
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"5 Computer Science Classes Comparator Type Final": true
+				}
+			]
+		},
+		{
+			"id": "ce36fc2d-647d-4385-87d4-11f70c9c67ca",
+			"name": "art",
+			"url": "http://127.0.0.1:5000/classes?classtype=art&comparatortype=difficulty",
+			"time": 6133,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"5 Art Classes Comparator Type Difficulty": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"5 Art Classes Comparator Type Difficulty": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6133
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"5 Art Classes Comparator Type Difficulty": true
+				}
+			]
+		},
+		{
+			"id": "f7a6fb7d-05f6-4ae5-aca6-a345e5e05a33",
+			"name": "language",
+			"url": "http://127.0.0.1:5000/classes?classtype=language&comparatortype=difficulty",
+			"time": 5584,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"5 Language Classes Comparator Type Difficulty": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"5 Language Classes Comparator Type Difficulty": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5584
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"5 Language Classes Comparator Type Difficulty": true
+				}
+			]
+		},
+		{
+			"id": "f30337b3-a1cd-4948-87bb-e0b446494f32",
+			"name": "Recommend Professor",
+			"url": "http://127.0.0.1:5000/recommendProfessor?course=User%20Interface%20Design",
+			"time": 2832,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Best professor for User Interface Design is Brian Smith": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Best professor for User Interface Design is Brian Smith": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2832
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Best professor for User Interface Design is Brian Smith": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 24982,
+	"collection": {
+		"requests": [
+			{
+				"id": "3844ea9e-c45a-41ff-80a4-936aacd978ea",
+				"method": "GET"
+			},
+			{
+				"id": "2c7d6710-4bcc-44cd-a761-33f38a20ee44",
+				"method": "GET"
+			},
+			{
+				"id": "ce36fc2d-647d-4385-87d4-11f70c9c67ca",
+				"method": "GET"
+			},
+			{
+				"id": "f7a6fb7d-05f6-4ae5-aca6-a345e5e05a33",
+				"method": "GET"
+			},
+			{
+				"id": "f30337b3-a1cd-4948-87bb-e0b446494f32",
+				"method": "GET"
+			}
+		]
+	}
+}
